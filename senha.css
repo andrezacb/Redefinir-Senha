@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('imagens/fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    margin-top: 5%;
+}
+
+.campo{
+    background: white;
+    width: 400px;
+    height: 480px;
+    padding: 5px;
+    border-radius: 30px;
+    margin: auto;
+    max-width: 800px;
+    min-height: 350px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid black;
+}
+header>img{
+    margin-left: 10%;
+    width: 250px;
+   
+}
+
+.conteudo{
+    margin-left: 8% ;
+   
+}
+
+h1{
+    font-size: 20px;
+}
+
+label{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+input{
+    width: 310px;
+    height: 25px;
+    padding: 3px;
+    border-radius: 4px;
+    margin-bottom: 2%;
+    border: 1px solid #a471b4;
+    
+}
+input:focus{
+    outline: 0;
+    box-shadow: 0000;
+    border: 2px groove rgb(133, 74, 178);
+}
+::placeholder{
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(110, 109, 109);
+}
+button{
+    width: 315px;
+    height: 33px;
+    border-radius: 3px;
+    background: #350145;
+    border: 2px solid #350145;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-top: 2%;
+}
+
+button:hover{
+    background:#531466;
+    border: 2px solid #531466;
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight:bolder;
+}
+
+footer{
+    margin-top: 10%;
+}
